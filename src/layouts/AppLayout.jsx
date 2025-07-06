@@ -1,22 +1,27 @@
-import React from 'react'
+import Header from '@/components/Header';
+import React from 'react';
 import { Outlet } from 'react-router-dom';
 
 const AppLayout = () => {
 return (
-    <div>
-        <main className="min-h-screen container">
+<div className="min-h-screen bg-lavender text-oxford flex flex-col">
+    {/* Header */}
+    
+
+    {/* Main content */}
+    <main className="flex-grow container mx-auto px-4 sm:px-6 lg:px-8 py-10">
+ 
+        <Header />
         <Outlet />
-            {/* Header */}
-            {/* body */}
-        </main>
 
-        {/* footer */}
+    </main>
 
-        <div className="p-10 text-center bg-gray-800 mt-10">
-            Made with compassion by Himanshu
-        </div>
-    </div>
-)
-}
+    {/* Footer */}
+    <footer className="p-6 text-center bg-wisteria text-black font-medium shadow-inner rounded-t-xl">
+    Made with compassion by Himanshu
+    </footer>
+</div>
+);
+};
 
 export default AppLayout;

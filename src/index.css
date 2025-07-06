@@ -1,2 +1,134 @@
 @import "tailwindcss";
 
+/* index.css or src/styles/colors.css */
+
+:root {
+  --color-silver: #bfacaaff;
+  --color-black: #02020aff;
+  --color-oxford: #05204aff;
+  --color-wisteria: #b497d6ff;
+  --color-lavender: #e1e2efff;
+}
+
+.bg-wisteria {
+  background-color: var(--color-wisteria);
+}
+
+.bg-silver {
+  background-color: var(--color-silver);
+}
+
+.bg-oxford {
+  background-color: var(--color-oxford);
+}
+
+.bg-lavender {
+  background-color: var(--color-lavender);
+}
+
+.text-wisteria {
+  color: var(--color-wisteria);
+}
+
+.text-silver {
+  color: var(--color-silver);
+}
+
+.text-oxford {
+  color: var(--color-oxford);
+}
+
+.text-lavender {
+  color: var(--color-lavender);
+}
+
+.bg-custom-gradient {
+  background: linear-gradient(90deg, #bfacaaff, #02020aff, #05204aff, #b497d6ff, #e1e2efff);
+}
+
+.hover\:bg-silver:hover {
+  background-color: var(--color-silver);
+}
+
+.hover\:text-silver:hover {
+  background-color: var(--color-silver);
+}
+
+.hover\:bg-oxford:hover {
+  background-color: var(--color-oxford);
+}
+
+.hover\:bg-oxford:hover {
+  background-color: var(--color-oxford);
+}
+
+.hover\:text-lavender:hover {
+  color: var(--color-lavender);
+}
+
+
+/* Accordion animation */
+[data-state='open'] > .accordion-content {
+  animation: accordion-down 0.3s ease-out;
+}
+
+@keyframes accordion-down {
+  from {
+    height: 0;
+    opacity: 0;
+  }
+  to {
+    height: var(--radix-accordion-content-height);
+    opacity: 1;
+  }
+}
+
+[data-state='closed'] > .accordion-content {
+  animation: accordion-up 0.2s ease-in;
+}
+
+@keyframes accordion-up {
+  from {
+    height: var(--radix-accordion-content-height);
+    opacity: 1;
+  }
+  to {
+    height: 0;
+    opacity: 0;
+  }
+}
+
+
+
+/* Custom background hover */
+.hover\:bg-wisteria:hover {
+  background-color: var(--color-wisteria);
+}
+
+.hover\:bg-silver:hover {
+  background-color: var(--color-silver);
+}
+
+.hover\:bg-oxford:hover {
+  background-color: var(--color-oxford);
+}
+
+/* Custom text hover */
+.hover\:text-wisteria:hover {
+  color: var(--color-wisteria);
+}
+
+.hover\:text-lavender:hover {
+  color: var(--color-lavender);
+}
+
+.hover\:text-silver:hover {
+  color: var(--color-silver);
+}
+
+
+.hover\:text-oxford:hover {
+  color: var(--color-oxford);
+}
+
+
