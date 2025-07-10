@@ -3,11 +3,11 @@
 /* index.css or src/styles/colors.css */
 
 :root {
-  --color-silver: #bfacaaff;
+  --color-silver: rgb(233, 197, 193);
   --color-black: #02020aff;
   --color-oxford: #05204aff;
   --color-wisteria: #b497d6ff;
-  --color-lavender: #e1e2efff;
+  --color-lavender: rgb(0, 0, 0);
 }
 
 .bg-wisteria {
@@ -42,9 +42,9 @@
   color: var(--color-lavender);
 }
 
-.bg-custom-gradient {
+/* .bg-custom-gradient {
   background: linear-gradient(90deg, #bfacaaff, #02020aff, #05204aff, #b497d6ff, #e1e2efff);
-}
+} */
 
 .hover\:bg-silver:hover {
   background-color: var(--color-silver);

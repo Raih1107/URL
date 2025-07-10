@@ -47,8 +47,8 @@ const Header = () => {
       <nav className="bg-custom-gradient text-black shadow-md p-4 rounded-b-xl mb-6">
       <div className="container mx-auto flex justify-between items-center px-4">
         <Link to="/" className="flex items-center gap-2">
-          <IoIosLink size={42} className="text-yellow-400" />
-          <span className="text-xl font-semibold tracking-wide">LinkVault</span>
+          <IoIosLink size={42} className="text-silver" />
+          <span className="text-xl font-semibold tracking-wide text-silver">LinkVault</span>
         </Link>
 
         <div className="flex items-center gap-4">

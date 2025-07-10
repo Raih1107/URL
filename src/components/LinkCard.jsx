@@ -28,10 +28,10 @@ return (
         <img src={url?.qr} alt="qr code" className="h-32 object-contain  self-start" />
 
         <Link to={`/link/${url?.id}`} className="flex flex-col flex-1"> 
-            <span className="text-3xl font-extrabold hover:underline cursor-pointer">
+            <span className="text-2xl font-extrabold hover:underline cursor-pointer">
                 {url?.title} 
             </span>
-            <span className="text-2xl text-gray-700 font-bold hover:underline cursor-pointer">
+            <span className="text-1xl text-gray-700 font-bold hover:underline cursor-pointer">
                 https://www.linkvault.in/{url?.custom_url ? url?.custom_url : url.short_url}
             </span>
             <span className="flex items-center gap-1 hover:underline cursor-pointer">

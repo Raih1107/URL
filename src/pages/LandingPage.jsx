@@ -36,7 +36,7 @@ return (
         className="h-full flex-1 py-4 px-4 bg-white border border-silver"
     />
     <Button
-        className="bg-wisteria text-black hover:bg-oxford hover:text-lavender transition-colors duration-200 shadow"
+        className="bg-wisteria text-black hover:bg-silver hover:text-lavender transition-colors duration-200 shadow"
         type="submit"
     >
         Shorten!
