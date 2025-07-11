@@ -98,7 +98,7 @@ return (
         }}
     >
     <DialogTrigger>
-        <Button variant="destructive" className="bg-wisteria hover:bg-silver">
+        <Button variant="destructive" className="bg-wisteria text-oxford hover:bg-silver">
         Create new Link
         </Button>
     </DialogTrigger>

@@ -48,7 +48,7 @@ const Header = () => {
       <div className="container mx-auto flex justify-between items-center px-4">
         <Link to="/" className="flex items-center gap-2">
           <IoIosLink size={42} className="text-silver" />
-          <span className="text-xl font-semibold tracking-wide text-silver">LinkVault</span>
+          <span className="text-xl sm:text-4xl font-semibold tracking-wide text-silver">LinkVault</span>
         </Link>
 
         <div className="flex items-center gap-4">

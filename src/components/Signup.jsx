@@ -139,7 +139,7 @@ return (
         </div>
     </CardContent>
     <CardFooter>
-        <Button onClick={handleSignup} className="bg-wisteria hover:bg-silver">
+        <Button onClick={handleSignup} className="bg-wisteria hover:bg-silver text-oxford">
             {loading ? <BeatLoader size={10} color="black" /> : "Create account"}
         </Button>
     </CardFooter>

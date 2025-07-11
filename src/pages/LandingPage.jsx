@@ -19,7 +19,7 @@ if (longUrl) navigate(`/auth?createNew=${longUrl}`);
 };
 
 return (
-<div className="flex flex-col items-center bg-lavender text-oxford transition-colors duration-300">
+<div className="flex flex-col items-center bg-lavender text-silver transition-colors duration-300">
     <h2 className="my-10 sm:my-16 text-3xl sm:text-6xl lg:text-7xl text-center font-extrabold">
     The only URL Shortener <br /> you&rsquo;ll ever need! 👇
     </h2>
@@ -33,7 +33,7 @@ return (
         value={longUrl}
         onChange={(e) => setLongUrl(e.target.value)}
         placeholder="Enter your loading URL"
-        className="h-full flex-1 py-4 px-4 bg-white border border-silver"
+        className="h-full flex-1 py-4 px-4  border border-silver"
     />
     <Button
         className="bg-wisteria text-black hover:bg-silver hover:text-lavender transition-colors duration-200 shadow"
@@ -54,7 +54,7 @@ className=" w-full px-4 sm:px-6 md:px-11 space-y-2 sm:space-y-3 mb-10"
 <AccordionItem
     key={item}
     value={`item-${item}`}
-    className= "border-white bg-white/80 rounded-md  backdrop-blur-md px-3 py-2 sm:px-4 sm:py-3 shadow-sm sm:shadow-md transition-all duration-300"
+    className= "border-white bg-silver rounded-md  backdrop-blur-md px-3 py-2 sm:px-4 sm:py-3 shadow-sm sm:shadow-md transition-all duration-300"
 >
     <AccordionTrigger className="text-oxford hover:text-wisteria text-left font-medium text-base sm:text-lg">
     {item === 1 && "How does the LinkVault URL shortener work?"}

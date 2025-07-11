@@ -7,8 +7,10 @@
   --color-black: #02020aff;
   --color-oxford: #05204aff;
   --color-wisteria: #b497d6ff;
-  --color-lavender: rgb(0, 0, 0);
+  --color-lavender: rgb(4, 1, 24);
+ 
 }
+
 
 .bg-wisteria {
   background-color: var(--color-wisteria);

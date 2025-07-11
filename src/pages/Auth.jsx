@@ -21,14 +21,14 @@ const Auth = () => {
     }, [isAuthenticated, loading])
 
 return (
-    <div className="mt-20 flex flex-col items-center gap-10">
+    <div className="text-silver mt-20 flex flex-col items-center gap-10">
         <h1 className="text-5xl font-extrabold">
         {longLink ?"Hold up! Let's login first...": "Login / Signup"}
         </h1>
         <Tabs defaultValue="login" className="w-[400px] ">
         <TabsList className="grid w-full grid-cols-2 ">
-            <TabsTrigger className="hover:bg-white" value="login">Login</TabsTrigger>
-            <TabsTrigger className="hover:bg-white" value="signup">Signup</TabsTrigger>
+            <TabsTrigger className="hover:bg-silver hover:text-oxford" value="login">Login</TabsTrigger>
+            <TabsTrigger className="hover:bg-silver hover:text-oxford" value="signup">Signup</TabsTrigger>
         </TabsList>
         <TabsContent value="login">
             <Login />

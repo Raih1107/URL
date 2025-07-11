@@ -51,7 +51,7 @@ const Dashboard = () => {
 
 return (
 <>
-<div className="flex flex-col gap-8">
+<div className="flex flex-col gap-8 text-silver">
     {loading || loadingClicks && <BarLoader className="mb-4" width={"100%"} color="#b497d6"  /> }
     
     <div className="grid grid-cols-2 gap-4">
@@ -88,7 +88,7 @@ return (
             type="text"
             placeholder="Filter Links..."
             value={searchQuery}
-            onChange={(e) => searchQuery(e.target.value)}
+            onChange={(e) => setSearchQuery(e.target.value)}
 
         />
 

@@ -113,7 +113,7 @@ return (
         </div>
     </CardContent>
     <CardFooter>
-        <Button onClick={handleLogin} className="bg-wisteria hover:bg-silver">
+        <Button onClick={handleLogin} className="bg-wisteria hover:bg-silver text-oxford">
             {loading ? <BeatLoader size={10} color="black" /> : "Login"}
         </Button>
     </CardFooter>
