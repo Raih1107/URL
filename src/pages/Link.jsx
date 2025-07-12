@@ -84,7 +84,7 @@ return (
                 <a 
                     className="flex items-center gap-1 hover:underline cursor-pointer"
                     href={url?.original_url} target="_blank">
-                    <LinkIcon className="p-1" />
+                    <LinkIcon className="p-1 break-words overflow-hidden" />
                     {url?.original_url}
                 </a>
 
