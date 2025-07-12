@@ -34,7 +34,7 @@ return (
             <span className="text-1xl text-gray-700 font-bold hover:underline cursor-pointer">
                 https://www.linkvault.in/{url?.custom_url ? url?.custom_url : url.short_url}
             </span>
-            <span className="flex items-center gap-1 hover:underline cursor-pointer">
+            <span className="flex items-center gap-1 hover:underlinebreak-words overflow-hidden cursor-pointer">
                 {url?.original_url}
             </span>
             <span className="flex items-end font-extralight text-sm flex-1">
