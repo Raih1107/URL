@@ -82,9 +82,9 @@ return (
                     https://linkvault-liart.vercel.app/{link}
                 </a>
                 <a 
-                    className="flex items-center gap-1 hover:underline cursor-pointer"
+                    className="flex items-center gap-1 hover:underline cursor-pointer break-words overflow-hidden"
                     href={url?.original_url} target="_blank">
-                    <LinkIcon className="p-1 break-words overflow-hidden" />
+                    <LinkIcon className="p-1" />
                     {url?.original_url}
                 </a>
 
