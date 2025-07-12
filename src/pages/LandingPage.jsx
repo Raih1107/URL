@@ -6,7 +6,7 @@ Accordion,
 AccordionContent,
 AccordionItem,
 AccordionTrigger,
-} from "@/components/ui/accordion";
+} from "../components/ui/accordion";
 import { useNavigate } from "react-router-dom";
 
 const LandingPage = () => {

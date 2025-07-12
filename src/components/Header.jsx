@@ -1,5 +1,5 @@
 // src/components/Header.jsx
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Avatar, AvatarFallback, AvatarImage } from "../components/ui/avatar";
 import { IoIosLink } from "react-icons/io";
 import React, { useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { useNavigate, useParams } from 'react-router-dom';
-import {UrlState} from '@/context'
+import {UrlState} from '../Context'
 import { deleteUrl, getUrl } from '../db/apiUrls';
 import useFetch from "../Hooks/useFetch"
 import { getClicksForUrl } from '../db/apiClicks';

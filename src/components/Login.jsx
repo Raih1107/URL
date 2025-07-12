@@ -8,7 +8,7 @@ import {
   CardTitle,
 } from "../components/ui/card";
 
-import {Input} from "@/components/ui/input";
+import {Input} from "../components/ui/input";
 import { Button } from './ui/button';
 import {BeatLoader} from 'react-spinners';
 import Error from './Error';
