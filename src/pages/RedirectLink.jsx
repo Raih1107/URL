@@ -21,16 +21,12 @@ const RedirectLink = () => {
         fn();
     }, [])
     
-    useEffect(() => {
-        if (!loading && data?.original_url) {
-            fnStats({
-            id: data.id,
-            originalUrl: data.original_url,
-            });
-        }
-
-        window.location.href = data.original_url;
-    }, [loading, data]);
+  useEffect(() => {
+    if (!loading && data) {
+      fnStats();
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [loading]);
 
 
 
