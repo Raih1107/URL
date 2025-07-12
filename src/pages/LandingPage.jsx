@@ -56,7 +56,7 @@ className=" w-full px-4 sm:px-6 md:px-11 space-y-2 sm:space-y-3 mb-10"
     value={`item-${item}`}
     className= "border-white bg-silver rounded-md  backdrop-blur-md px-3 py-2 sm:px-4 sm:py-3 shadow-sm sm:shadow-md transition-all duration-300"
 >
-    <AccordionTrigger className="text-oxford hover:text-wisteria text-left font-medium text-base sm:text-lg">
+    <AccordionTrigger className="text-oxford hover:no-underline hover:text-wisteria text-left font-medium text-base sm:text-lg">
     {item === 1 && "How does the LinkVault URL shortener work?"}
     {item === 2 && "Do I need an account to use the app?"}
     {item === 3 && "What analytics are available for my shortened URLs?"}
