@@ -75,7 +75,7 @@ export async function getLongUrl(id){
         .from("urls")
         .select("id, original_url")
         .or(`short_url.eq.${id},custom_url.eq.${id}`)
-        .single();
+        .maybeSingle();
 
     if(error){
         console.error(error.message);
