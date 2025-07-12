@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
-import {UrlState} from "@/context"
+import { UrlState } from '../Context';
 import { useNavigate, useSearchParams } from 'react-router-dom';
 import {
   Dialog,
