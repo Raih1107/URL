@@ -77,10 +77,9 @@ return (
                 <span className="text-4xl font-extrabold hover:underline cursor-pointer"> 
                     {url?.title} 
                 </span>
-                <a 
-                    className="text-xl sm:text-3xl text-blue-400 font-bold hover:underline cursor-pointer"
-                    href={`https://linkvault.in/${link}`} target="_blank">
-                    https://linkvault.in/{link}
+                <a href={`https://linkvault-liart.vercel.app/${link}`} target="_blank">
+
+                    https://linkvault-liart.vercel.app/{link}
                 </a>
                 <a 
                     className="flex items-center gap-1 hover:underline cursor-pointer"
@@ -97,14 +96,15 @@ return (
             <div>
                 <Button 
                     variant="ghost" 
-                    onClick={() => navigator.clipboard.writeText(`https://linkvault.in?${url?.short_url}`)}
+                    onClick={() => navigator.clipboard.writeText(`https://linkvault-liart.vercel.app/${url?.short_url}`)}
+
                 >
                 <Copy />
                 </Button>
                 <Button variant="ghost" onClick={downloadImage}>
                     <Download />
                 </Button>            
-                <Button variant="ghost" onClick={() => fnDelete()} disable={loadingDelete}>
+                <Button variant="ghost" onClick={() => fnDelete()} disabled={loadingDelete}>
                     {loadingDelete ? <BeatLoader size={5} color="white" /> : <Trash /> }
                 </Button>
 
